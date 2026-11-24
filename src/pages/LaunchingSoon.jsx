@@ -100,24 +100,24 @@ const LaunchingSoon = () => {
       {/* Main Section */}
       <main className="flex-1 w-full max-w-7xl mx-auto px-5 py-6 sm:py-8 flex items-center justify-center">
 
-<section className="relative isolate overflow-hidden w-full text-center px-5 sm:px-8 lg:px-12 py-7 sm:py-9 rounded-[30px] border border-[#f6c9d2] shadow-[8px_8px_0_#fff1f3]">
+        <section className="relative isolate overflow-hidden w-full text-center px-5 sm:px-8 lg:px-12 py-7 sm:py-9 rounded-[30px] border border-[#f6c9d2] shadow-[8px_8px_0_#fff1f3]">
 
-  {/* Background Video */}
-  <video
-    autoPlay
-    muted
-    loop
-    playsInline
-    preload="auto"
-    aria-hidden="true"
-    className="absolute inset-0 w-full h-full object-cover z-[-2]"
-  >
-    <source src={introVideo} type="video/mp4" />
-    Your browser does not support video playback.
-  </video>
+          {/* Background Video */}
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="auto"
+            aria-hidden="true"
+            className="absolute inset-0 w-full h-full object-cover z-[-2]"
+          >
+            <source src={introVideo} type="video/mp4" />
+            Your browser does not support video playback.
+          </video>
 
-  {/* White Transparent Overlay */}
-  <div className="absolute inset-0 bg-white/75 z-[-1]"></div>
+          {/* White Transparent Overlay */}
+          <div className="absolute inset-0 bg-white/75 z-[-1]"></div>
 
           {/* Launching Soon */}
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tighter text-[#1b0b11] font-['Bricolage_Grotesque',sans-serif]">
