@@ -6,7 +6,7 @@ import introVideo from "../assets/figrit-intro.mp4";
 
 const LaunchingSoon = () => {
   // Launch date
-  const launchDate = "2027-02-01T00:00:00";
+  const launchDate = "2026-12-07T12:00:00";
 
   // Destination link
   const bookingLink = "https://demo.thebasilium.com/figrit/";
